@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cálculo do IMC</string>
+    <string name="action_settings">Configurações</string>
+    <string name="fill">Por favor, preencha todos os campos</string>
+    <string name="description_bottom_calculate">Botão para calucular o IMC</string>
+    <string name="name_bottom_calculate">Calcular</string>
+    <string name="description_text_weight">Informe o seu Peso</string>
+    <string name="name_text_weight">Peso</string>
+    <string name="description_text_height">Informe a sua Altura</string>
+    <string name="name_text_height">Altura</string>
+    <string name="title_activity_calculate">Resultado</string>
+    <string name="loading">Carregando</string>
+</resources>
