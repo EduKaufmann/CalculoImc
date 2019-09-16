@@ -10,4 +10,5 @@
     <string name="name_text_height">Height</string>
     <string name="title_activity_calculate">Result</string>
     <string name="loading">Loading</string>
+    <string name="value">Your BMI value is</string>
 </resources>

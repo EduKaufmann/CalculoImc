@@ -22,11 +22,4 @@
 
     <include layout="@layout/content_calculate" />
 
-    <TextView
-        android:id="@+id/mostra"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-
-        android:text="@string/loading" />
-
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

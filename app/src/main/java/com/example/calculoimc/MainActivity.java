@@ -40,6 +40,8 @@ public class MainActivity extends AppCompatActivity {
                     it.putExtra("Peso", edtPeso.getText().toString());
                     it.putExtra("Altura", edtAltura.getText().toString());
                     startActivity(it);
+                    edtPeso.setText(null);
+                    edtAltura.setText(null);
                 }else{
                     criarToast(getResources().getString(R.string.fill));
                 }

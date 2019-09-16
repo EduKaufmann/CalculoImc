@@ -11,4 +11,5 @@
     <string name="name_text_height">Altura</string>
     <string name="title_activity_calculate">Resultado</string>
     <string name="loading">Carregando</string>
+    <string name="value">O valor do seu IMC é</string>
 </resources>
