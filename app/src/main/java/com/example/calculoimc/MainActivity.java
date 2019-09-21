@@ -35,7 +35,8 @@ public class MainActivity extends AppCompatActivity {
         btnCalcular.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(edtPeso.length() != 0 && edtAltura.length() != 0){
+                if((edtPeso.length() != 0 && Float.parseFloat(edtPeso.getText().toString()) > 0)
+                        && (edtAltura.length() != 0 && Float.parseFloat(edtAltura.getText().toString()) > 0)){
                     Intent it = new Intent(getBaseContext(), CalculateActivity.class);
                     it.putExtra("Peso", edtPeso.getText().toString());
                     it.putExtra("Altura", edtAltura.getText().toString());

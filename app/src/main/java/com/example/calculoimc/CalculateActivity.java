@@ -30,24 +30,31 @@ public class CalculateActivity extends AppCompatActivity {
         altura_valor *= altura_valor;
         Float peso_valor = Float.valueOf(peso);
         Float imc = peso_valor/altura_valor;
-        String tabela;
+        String tabela, valores;
         if (imc < 17){
-            tabela = "Muito abaixo do peso";
+            tabela = getResources().getString(R.string.peso_1);
+            valores = "(< 17)";
         }else if (imc >= 17 && imc <= 18.49){
-            tabela = "Abaixo do peso";
+            tabela = getResources().getString(R.string.peso_2);
+            valores = "(>= 17 && <= 18.49)";
         }else if (imc >= 18.5  && imc <= 24.99){
-            tabela = "Peso normal";
+            tabela = getResources().getString(R.string.peso_3);
+            valores = "(>= 18.5  && <= 24.99)";
         }else if (imc >= 25 && imc <= 29.99){
-            tabela = "Acima do peso";
+            tabela = getResources().getString(R.string.peso_4);
+            valores = "(>= 25 && <= 29.99)";
         }else if (imc >= 30 && imc <= 34.99){
-            tabela = "Obesidade I";
+            tabela = getResources().getString(R.string.peso_5);
+            valores = "(>= 30 && <= 34.99)";
         }else if (imc >= 35  && imc <= 39.99){
-            tabela = "Obesidade II (severa)";
+            tabela = getResources().getString(R.string.peso_6);
+            valores = "(>= 35  && <= 39.99)";
         }else{
-            tabela = "Obesidade III (mórbida)";
+            tabela = getResources().getString(R.string.peso_7);
+            valores = "(> 40)";
         }
 
-        String Msg = getResources().getString(R.string.value) + ": " + imc + " " + tabela;
+        String Msg = getResources().getString(R.string.value) + ": " + imc + " " + tabela + " " + valores;
 
         txt.setContentDescription(Msg);
 

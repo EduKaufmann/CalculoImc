@@ -12,4 +12,11 @@
     <string name="title_activity_calculate">Resultado</string>
     <string name="loading">Carregando</string>
     <string name="value">O valor do seu IMC é</string>
+    <string name="peso_1">Muito abaixo do peso</string>
+    <string name="peso_2">Abaixo do peso</string>
+    <string name="peso_3">Peso normal</string>
+    <string name="peso_4">Acima do peso</string>
+    <string name="peso_5">Obesidade I</string>
+    <string name="peso_6">Obesidade II (severa)</string>
+    <string name="peso_7">Obesidade III (mórbida)</string>
 </resources>

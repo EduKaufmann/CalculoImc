@@ -11,4 +11,11 @@
     <string name="title_activity_calculate">Result</string>
     <string name="loading">Loading</string>
     <string name="value">Your BMI value is</string>
+    <string name="peso_1">Very underweight</string>
+    <string name="peso_2">Under weight</string>
+    <string name="peso_3">Normal weight</string>
+    <string name="peso_4">Overweight</string>
+    <string name="peso_5">Obesity I</string>
+    <string name="peso_6">Obesity II (severe)</string>
+    <string name="peso_7">Obesity III (morbid)</string>
 </resources>
